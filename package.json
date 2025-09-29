@@ -1,6 +1,5 @@
 {
   "name": "mediabunny-types-repro",
-  "packageManager": "yarn@4.10.3",
   "dependencies": {
     "mediabunny": "^1.21.0",
     "typescript": "^5.9.2"
