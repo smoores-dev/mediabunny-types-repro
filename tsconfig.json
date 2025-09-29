@@ -1,0 +1,21 @@
+{
+  "extends": ["@tsconfig/strictest/tsconfig.json"],
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "incremental": true,
+    "tsBuildInfoFile": "tsconfig.tsbuildinfo",
+    "outDir": "dist",
+    "rootDir": "src",
+    "module": "NodeNext",
+    "allowJs": true,
+    "moduleResolution": "NodeNext",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowImportingTsExtensions": true,
+    "rewriteRelativeImportExtensions": true,
+    "lib": ["ESNext"]
+  },
+  "include": ["src/**/*.ts"]
+}
