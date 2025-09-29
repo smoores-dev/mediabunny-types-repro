@@ -1,5 +1,6 @@
 {
   "name": "mediabunny-types-repro",
+  "type": "module",
   "dependencies": {
     "mediabunny": "^1.21.0",
     "typescript": "^5.9.2"
